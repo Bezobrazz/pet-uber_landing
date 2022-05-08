@@ -1,0 +1,228 @@
+@media (max-width: 1200px)
+	.menu
+		&-li
+			font-size: 13px
+			padding-right: 20px
+	h1
+		font-size: 55px
+	.reasons-icon
+		&-wrapper
+			align-items: flex-start
+		&-text
+			max-width: 317px
+			font-size: 14px
+	.mobile-block
+		width: 300px
+@media ( max-width:	1024px)
+	.reasons
+		.row
+			flex-direction: column
+			align-items: center
+@media ( max-width:	991px)
+	.menu
+		&-li
+			font-size: 10px
+			padding-right: 10px
+	.mobile-block
+		width: 220px
+	.header-bottom
+		&-wrapper
+			padding: 0
+		&-text
+			font-size: 10px
+		&-logo
+			width: 100%
+		&-btn
+			width: 120px
+			height: 40px
+			font-size: 9px
+	.tel-wrapper
+		.tel-text
+		a
+			font-size: 13px
+	h1
+		font-size: 50px
+	// .reasons-icon
+	// 	&-text
+	// 		max-width: 300px
+@media (max-width:	767px)
+	.hamburger
+		display: block
+		position: absolute
+		right: 10px
+		top: 50%
+		transform: translateY(-50%)
+		width: 30px
+		height: 12px
+		span
+			display: block
+			height: 2px
+			width: 100%
+			background-color: #fff
+			margin-bottom: 2px
+			transition: 0.5s all
+		&_active
+			span
+				margin-bottom: -2px
+				&:nth-child(1)
+					transform: translateY(3px) rotate(-45deg)
+				&:nth-child(2)
+					display: none
+				&:nth-child(3)
+					transform: translateY(3px) rotate(45deg)
+	h1
+		font-size: 35px
+	.offer
+		&-subtitle
+			font-size: 25px
+		&-text
+			font-size: 14px
+	.menu
+		&-wrapper
+			display: flex
+			flex-direction: column
+			justify-content: center
+			gap: 20px
+			position: fixed
+			z-index: 1
+			top: 0
+			left: -100%
+			width: 50%
+			height: 100vh
+			background-color: rgba(0, 0, 0, 0.8)
+			padding: 10px 0
+			transition: 0.7s all
+			&_active
+				left: 0
+		&-li
+			font-size: 20px
+			padding: 0
+			border: none
+	.tel-wrapper
+		display: flex
+		flex-direction: column
+		align-items: flex-end
+	.mobile
+		&-block
+			width: 300px
+			padding: 0 6px
+		&-title
+			font-size: 31px
+	.choice-img
+		top: 300px
+		width: 500px
+	.footer-wrapper
+		flex-direction: column
+		&-social
+			margin-right: 0
+			margin-bottom: 16px
+			justify-content: center
+	.footer-download-wrapper
+		margin-left: 0
+		justify-content: center
+		margin-bottom: 16px
+
+@media (max-width:	576px)
+	header
+		height: 32px
+	h1
+		font-size: 30px
+		margin: 45px 25px 15px 25px
+	.menu
+		&-li
+			font-size: 18px
+			width: 100%
+			text-align: center
+		&-wrapper
+			width: 80%
+
+	.tel-text
+		display: none
+	.header-bottom
+		&-text
+			display: none
+		&-btn
+			width: 110px
+			height: 22px
+			font-size: 10px
+	.xs-hiden
+		display: none
+	.btn-wrapper
+		display: flex
+		flex-direction: column
+	.xs-visible
+		display: block
+		font-weight: 400
+		font-size: 12px
+		text-transform: uppercase
+		color: #FFFFFF
+		text-decoration: none
+		margin-left: 42px
+	.offer
+		min-height: 100%
+		padding-bottom: 34px
+		&-text
+			display: none
+		&-subtitle
+			font-size: 20px
+		&-btn
+			width: 210px
+			height: 50px
+			font-size: 16px
+
+	.reasons
+		&-icon
+			&-wrapper
+				flex-direction: column
+				align-items: center
+				height: 100%
+			&-text
+				font-size: 16px
+		&-title
+			font-size: 16px
+
+	.mobile
+		&-title
+			font-size: 16px
+		&-subtitle
+			font-size: 14px
+
+	.choice
+		min-height: 100%
+		&-img
+			width: 300px
+			top: 130px
+		.black-rectangle
+			&-title, &-subtitle
+				display: none
+		.white-rectangle
+			display: none
+			&-text
+				position: absolute
+				bottom: 31px
+				color: #fff
+				z-index: 1
+				left: 50%
+				transform: translateX(-50%)
+				font-size: 14px
+	.conditions
+		&-title
+			font-size: 16px
+		&-subtitle
+			font-size: 16px
+		&-list
+			li
+				font-size: 14px
+	.map
+		&-title
+			font-size: 16px
+		&-subtitle
+			font-size: 14px
+
+	.footer
+		&-line
+			width: 245px
+	.footer-wrapper-social
+		order: 1
+	.footer-download-wrapper
+		order: 2
